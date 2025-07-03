@@ -7,6 +7,10 @@
     font-family: "montserrat";
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #121517;
 
@@ -33,14 +37,14 @@ body {
 .header-link {
     color: #D9D9D9;
     font-weight: 400;
-    text-shadow: white 1px 1px 10px ;
+    text-shadow: white 1px 1px 10px;
     transition: 350ms all ease;
 
 }
 
-.header-link:hover{
+.header-link:hover {
     transition: 350ms all ease;
-    text-shadow: #2B9658 1px 1px 20px  ;
+    text-shadow: #2B9658 1px 1px 20px;
     color: #2B9658;
 }
 
@@ -248,7 +252,6 @@ body {
 .main-wrapper-3 {
     padding-top: 150px;
     display: flex;
-    /* justify-content: space-between;  */
     gap: 220px;
 }
 
@@ -425,6 +428,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .shadow-2 {
@@ -664,76 +668,87 @@ body {
     padding-top: 50px;
 }
 
-.shadow-6{
+.shadow-6 {
     position: absolute;
     top: 3850px;
     left: 320px;
 }
-.main-wrapper-7{
+
+.main-wrapper-7 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.left-7-item{
+
+.left-7-item {
     color: white;
     font-weight: 800;
     font-size: 80px;
     width: 365px;
 }
-.left-7-text{
+
+.left-7-text {
     font-weight: 400;
     font-size: 20px;
     width: 447px;
     text-align: start;
     line-height: 163.5%;
-    color: #d6d6d6;  
+    color: #d6d6d6;
 }
-.left-7-number{
+
+.left-7-number {
     font-weight: 500;
     color: white;
     font-size: 32px;
     padding-left: 100px;
 }
-.left-7{
+
+.left-7 {
     display: flex;
     flex-direction: column;
     gap: 40px;
     position: relative;
 }
-.shadow-7{
+
+.shadow-7 {
     position: absolute;
     top: 4250px;
     left: 800px;
 }
-.right-7-img{
+
+.right-7-img {
     position: relative;
 }
-.lines-7{
+
+.lines-7 {
     position: absolute;
     top: 4500px;
     right: 0;
 }
-.footer-list-item{
+
+.footer-list-item {
     font-weight: 400;
     font-size: 20px;
-    color: gray;    
+    color: gray;
 }
-.footer-link{
+
+.footer-link {
     font-weight: 400;
     font-size: 20px;
     color: #BBB3B3;
 }
 
-.footer-wrapper{
+.footer-wrapper {
     display: flex;
     justify-content: space-between;
 }
-.footer-nav{
+
+.footer-nav {
     display: flex;
     gap: 82px;
 }
 
-.footer{
+.footer {
     background-color: #0B0C0D;
     width: 100%;
     height: 333px;
@@ -741,16 +756,19 @@ body {
     margin-top: 160px;
     padding-top: 30px;
 }
-.footer-list{
+
+.footer-list {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.footer-top-strelka{
+
+.footer-top-strelka {
     width: 84px;
     height: 84px;
 }
-.plus-2{
+
+.plus-2 {
     font-weight: 500;
     font-size: 26px;
     margin-top: 130px;
